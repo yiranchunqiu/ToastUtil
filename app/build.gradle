@@ -49,4 +49,5 @@ dependencies {
     debugImplementation   'com.squareup.leakcanary:leakcanary-android:2.0-beta-3'
     //toast
     implementation project(':pxztoast')
+//    implementation 'com.github.yiranchunqiu:ToastUtil:1.0'
 }
