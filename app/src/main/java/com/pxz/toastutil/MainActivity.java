@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        initData();
+        initOnClick();
     }
 
     private void initView() {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         tv8 = findViewById(R.id.tv_8);
     }
 
-    private void initData() {
+    private void initOnClick() {
         tv1.setOnClickListener(v -> ToastUtil.shortShow("短时间系统吐司", MainActivity.this));
         tv2.setOnClickListener(v -> ToastUtil.longShow("长时间系统吐司", MainActivity.this));
         tv3.setOnClickListener(v -> ToastUtil.shortShowStyle("短时间自定义吐司", MainActivity.this));
